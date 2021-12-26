@@ -1,3 +1,7 @@
+.container {
+  width: 80%;
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -59,7 +63,7 @@ select {
 
 .main-navigation {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
   position: absolute;
@@ -73,26 +77,42 @@ select {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  width: 80%;
+  padding-top: 30px;
+  padding-left: 0;
+  gap: 20px;
+}
+.main-navigation ul li a {
+  text-transform: uppercase;
+  color: #3064a7;
+  font-weight: 900;
+}
+.main-navigation ul li a:hover {
+  color: #a0171c;
 }
 .main-navigation ul li:first-of-type {
   margin-right: auto;
 }
 
-.home {
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: #d6deec;
   margin: 0;
   padding: 0;
   height: 100vh;
   position: relative;
 }
-.home .svg-header-white {
+.header .svg-header-white {
   position: absolute;
   bottom: 0;
   z-index: 5;
 }
-.home .svg-header-blue {
+.header .svg-header-blue {
   position: absolute;
-  bottom: 100px;
+  bottom: 0;
   z-index: 4;
 }
 

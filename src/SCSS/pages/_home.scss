@@ -1,9 +1,13 @@
-.home {
+.header {
+  @include flex(center, center, column);
   background-color: $secondaryColor;
   margin: 0;
   padding: 0;
   height: 100vh;
   position: relative;
+
+  .introduction {
+  }
 
   .svg-header-white {
     position: absolute;
@@ -13,7 +17,7 @@
   .svg-header-blue {
     position: absolute;
 
-    bottom: 100px;
+    bottom: 0;
     z-index: 4;
   }
 }

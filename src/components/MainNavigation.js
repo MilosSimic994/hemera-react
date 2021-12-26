@@ -8,7 +8,7 @@ const MainNavigation = () => {
         <li>Hemera</li>
         <li>
           <NavLink to="/" activeClassName="active-link">
-            Home
+            Naslovna
           </NavLink>
         </li>
         <li>

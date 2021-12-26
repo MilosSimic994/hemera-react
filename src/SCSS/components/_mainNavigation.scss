@@ -1,5 +1,5 @@
 .main-navigation {
-  @include flex(flex-end, center, row);
+  @include flex(center, center, row);
   position: absolute;
   top: 0;
   z-index: 20;
@@ -7,6 +7,22 @@
   background: transparent;
   ul {
     @include flex(space-between, center, row);
+    width: 80%;
+    padding-top: 30px;
+    padding-left: 0;
+    gap: 20px;
+
+    li {
+      a {
+        text-transform: uppercase;
+        color: $primaryColor;
+        font-weight: 900;
+
+        &:hover {
+          color: $primeryTextColor;
+        }
+      }
+    }
     li:first-of-type {
       margin-right: auto;
     }
