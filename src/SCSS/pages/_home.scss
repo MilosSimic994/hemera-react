@@ -1,0 +1,22 @@
+.home {
+  background-color: $secondaryColor;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  position: relative;
+
+  .svg-header-white {
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+  }
+  .svg-header-blue {
+    position: absolute;
+
+    bottom: 100px;
+    z-index: 4;
+  }
+}
+.active-link {
+  color: red;
+}
