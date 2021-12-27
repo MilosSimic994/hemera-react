@@ -7,22 +7,22 @@ const MainNavigation = () => {
       <ul>
         <li>Hemera</li>
         <li>
-          <NavLink to="/" activeClassName="active-link">
+          <NavLink to="/">
             Naslovna
           </NavLink>
         </li>
         <li>
-          <NavLink to="/das" activeClassName="active-link">
+          <NavLink to="/das">
             O nama
           </NavLink>
         </li>
         <li>
-          <NavLink to="/das" activeClassName="active-link">
+          <NavLink to="/das">
             Proizvodi
           </NavLink>
         </li>
         <li>
-          <NavLink to="/contact" activeClassName="active-link">
+          <NavLink to="/contact">
             Kontact
           </NavLink>
         </li>

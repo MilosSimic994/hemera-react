@@ -1,15 +1,17 @@
-import React from "react";
+import { Link } from "react-router-dom";
+
 
 const Heaedr = () => {
   return (
     <header className="header">
-      <div class="container">
+      <div className="container">
         <article className="introduction ">
           <h1>Hemera</h1>
           <p>
             MEsto gde mozete naci sve popularne brendove koji nude sirok
             asortiman kozmetickih preparata
           </p>
+          <button><Link to="/contact">Kontaktiraj nas</Link></button>
         </article>
       </div>
 
