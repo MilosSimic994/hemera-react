@@ -1,4 +1,4 @@
-import Heaedr from "./Heaedr";
+import Heaedr from "./Header";
 
 const Home = () => {
   return (

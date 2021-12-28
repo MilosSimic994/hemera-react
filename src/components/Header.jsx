@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
-
-const Heaedr = () => {
+const Header = () => {
   return (
     <header className="header">
       <div className="container">
@@ -41,4 +40,4 @@ const Heaedr = () => {
   );
 };
 
-export default Heaedr;
+export default Header;

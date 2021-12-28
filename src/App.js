@@ -1,8 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
-import Contact from "./components/Contact";
-
-import MainNavigation from "./components/MainNavigation";
+import { Home, MainNavigation, Contact } from './components/export.js';
 
 function App() {
   return (
