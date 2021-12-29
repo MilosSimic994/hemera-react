@@ -86,6 +86,7 @@ select {
   text-transform: uppercase;
   color: #3064a7;
   font-weight: 900;
+  font-size: 1.6rem;
 }
 .main-navigation ul li a:hover {
   color: #a0171c;
@@ -112,17 +113,20 @@ select {
   height: 100vh;
   position: relative;
 }
+.header .introduction {
+  margin-bottom: 200px;
+}
 .header .introduction h1 {
   color: #a0171c;
-  font-size: 7rem;
   text-transform: uppercase;
   letter-spacing: 4px;
+  font-size: calc(5.5rem + 1.1vw);
 }
 .header .introduction p {
   color: #3064a7;
   font-size: calc(0.7rem + 1.1vw);
   text-transform: uppercase;
-  width: calc(52ch);
+  width: 52ch;
   font-weight: 700;
   line-height: 1.2;
   padding-bottom: 60px;
@@ -140,6 +144,9 @@ select {
 }
 .header .introduction button:hover {
   padding-right: 52px;
+}
+.header .slider {
+  background-color: red;
 }
 .header .svg-header-white {
   position: absolute;

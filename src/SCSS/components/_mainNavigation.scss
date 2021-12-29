@@ -13,10 +13,12 @@
     gap: 20px;
 
     li {
+      
       a {
         text-transform: uppercase;
         color: $primaryColor;
         font-weight: 900;
+        font-size: 1.6rem;
 
         &:hover {
           color: $primaryTextColor;

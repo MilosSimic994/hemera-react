@@ -10,17 +10,18 @@
   position: relative;
 
   .introduction {
+    margin-bottom: 200px;
     h1 {
       color: $primaryTextColor;
-      font-size: 7rem;
       text-transform: uppercase;
       letter-spacing: 4px;
+      font-size: calc(5.5rem + 1.1vw);
     }
     p {
       color: $primaryColor;
       font-size:  calc(0.7rem + 1.1vw);
       text-transform: uppercase;
-      width: calc(52ch);
+      width: 52ch;
       font-weight: 700;
       line-height: 1.2;
       padding-bottom: 60px;
@@ -40,6 +41,10 @@
       }
     }
   } 
+
+  .slider {
+  background-color: red;
+  }
 
   .svg-header-white {
     position: absolute;

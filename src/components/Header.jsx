@@ -1,6 +1,16 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import data from '../data.json'
+
 
 const Header = () => {
+  const {images} = data
+  const [counter, setCounter] = useState(0)
+  const [img,setImg] = useState(images[counter])
+
+ 
+
+  console.log(counter);
   return (
     <header className="header">
       <div className="container">
@@ -11,6 +21,9 @@ const Header = () => {
             asortiman kozmetickih preparata
           </p>
           <button><Link to="/contact">Kontaktiraj nas</Link></button>
+        </article>
+        <article className="slider">
+          <img src={img.img} alt={img.alt} />
         </article>
       </div>
 
