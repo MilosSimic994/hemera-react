@@ -145,6 +145,9 @@ select {
 .header .introduction button:hover {
   padding-right: 52px;
 }
+.header .a {
+  color: red;
+}
 .header .slider {
   background-color: red;
 }
