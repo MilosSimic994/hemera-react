@@ -1,4 +1,5 @@
-.container {
+.header__wrapper {
+  @include container;
   @include flex(space-between, center, row);
 }
 .header {

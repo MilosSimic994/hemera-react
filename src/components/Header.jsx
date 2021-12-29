@@ -27,7 +27,7 @@ const Header = () => {
   console.log(counter);
   return (
     <header className="header">
-      <div className="container">
+      <div className="header__wrapper">
         <article className="introduction ">
           <h1>Hemera</h1>
           <p>
