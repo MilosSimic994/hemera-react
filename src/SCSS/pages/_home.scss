@@ -5,9 +5,8 @@
 .header {
   @include flex(center, center, column);
   background-color: $secondaryColor;
-  // height: calc(100vh - 80px);
   height: 70vh;
-  // position: relative;
+  position: relative;
 
   .introduction {
     h1 {
