@@ -14,6 +14,9 @@
       text-transform: uppercase;
       letter-spacing: 4px;
       font-size: calc(5.5rem + 1.1vw);
+      @include mobile {
+        font-size: 2.5rem;
+      }
     }
     p {
       color: $primaryColor;
