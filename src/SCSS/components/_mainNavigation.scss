@@ -1,19 +1,16 @@
 .main-navigation {
-  @include flex(center, center, row);
-  position: absolute;
-  top: 0;
-  z-index: 20;
-  width: 100%;
-  background: transparent;
+  $screen: $media-l;
+
+  @include container;
+  @include flex(space-between, center);
+  
   ul {
-    @include flex(space-between, center, row);
-    width: 80%;
-    padding-top: 30px;
-    padding-left: 0;
+    @include flex(space-between, center);
     gap: 20px;
+    width: 100%;
 
     li {
-      
+      padding: 20px 0;
       a {
         text-transform: uppercase;
         color: $primaryColor;

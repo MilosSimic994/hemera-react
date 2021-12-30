@@ -1,11 +1,15 @@
-@mixin flex($justify, $align, $direction) {
+@mixin flex($justify, $align, $direction: row) {
   display: flex;
   justify-content: $justify;
   align-items: $align;
   flex-direction: $direction;
 }
 @mixin container {
-  width: 80%;
+  width: $media-l;
   margin-left: auto;
   margin-right: auto;
+
+  @media screen and (max-width: $media-l) {
+    width: 80%;
+  }
 }

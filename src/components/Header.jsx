@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import {MainNavigation} from "./export";
 import { Link } from "react-router-dom";
 import data from '../data.json'
 
@@ -26,6 +27,8 @@ const Header = () => {
    console.log(images);
   console.log(counter);
   return (
+    <>
+    <MainNavigation/>
     <header className="header">
       <div className="header__wrapper">
         <article className="introduction ">
@@ -64,6 +67,7 @@ const Header = () => {
         ></path>
       </svg>
     </header>
+    </>
   );
 };
 
