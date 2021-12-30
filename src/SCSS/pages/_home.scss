@@ -5,7 +5,7 @@
 .header {
   @include flex(center, center, column);
   background-color: $secondaryColor;
-  height: 70vh;
+  height: calc(100vh - 80px);
   position: relative;
 
   .introduction {
@@ -14,7 +14,6 @@
       color: $primaryTextColor;
       text-transform: uppercase;
       letter-spacing: 4px;
-      font-family: $logoFontFamily;
       font-size: calc(5.5rem + 1.1vw);
       @include mobile {
         font-size: 2.5rem;
@@ -22,13 +21,18 @@
     }
     h1::before {
       content: 'vaše mesto kupovine';
+      font-family: $logoFontFamily;
       font-size: 18px;
+      font-weight: bold;
       position: absolute;
+      color: $primaryColor;
       top: -5px;
+      letter-spacing: 1px;
     }
     p {
       color: $primaryColor;
       font-size:  calc(0.7rem + 1.1vw);
+      font-weight: bold;
       text-transform: uppercase;
       width: 42ch;
       font-weight: 700;
@@ -52,7 +56,14 @@
   } 
 
   .slider {
-    width: 220px;
+    background: #fff;
+    width: 500px;
+    height: 500px;
+ @include flex(center, center);
+    border-radius: 36% 64% 75% 25% / 33% 55% 45% 67%;
+    img {
+      border-radius: 50%;
+    }
   }
 
   .svg-header {

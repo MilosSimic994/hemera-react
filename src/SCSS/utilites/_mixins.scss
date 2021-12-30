@@ -28,17 +28,17 @@
   flex-direction: $direction;
 }
 @mixin container {
-
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
 
   
-  @include desktop-xxl {
+  @include desktop-xl {
     width: 75%;
   }
  
   @include laptop {
-    width: 1024px;
+    width: 90%;
   };
 
  
