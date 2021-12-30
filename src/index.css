@@ -134,6 +134,11 @@ select {
   letter-spacing: 4px;
   font-size: calc(5.5rem + 1.1vw);
 }
+@media screen and (max-width: 768px) {
+  .header .introduction h1 {
+    font-size: 2.5rem;
+  }
+}
 .header .introduction p {
   color: #3064a7;
   font-size: calc(0.7rem + 1.1vw);
