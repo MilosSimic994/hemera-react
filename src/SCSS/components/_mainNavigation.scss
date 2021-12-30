@@ -13,11 +13,12 @@
       a {
         text-transform: uppercase;
         color: $primaryColor;
-        font-weight: 900;
+        font-weight: 600;
         font-size: 1.3rem;
+        transition: all 0.5s ease-in-out;
         
         &:hover {
-          animation: navLinksColorGradinet 0.4s ease forwards;
+          animation: navLinksColorGradinet 0.15s forwards;
         }
 
         &.active {
@@ -32,6 +33,10 @@
         font-family: $logoFontFamily;
         font-size: 1.8rem;
         color: $primaryTextColor;
+
+        &:hover{
+          animation-play-state: paused;
+        }
       }
     }
   }

@@ -5,17 +5,17 @@
     -webkit-text-fill-color: transparent;
   }
   25% {
-    background: linear-gradient($primaryColor 75%, $primaryTextColor 100%);
+    background: linear-gradient($primaryColor 75%, $primaryTextColor 25%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   50%{
-    background: linear-gradient($primaryColor 50%, $primaryTextColor 100%);
+    background: linear-gradient($primaryColor 50%, $primaryTextColor 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   75%{
-    background: linear-gradient($primaryColor 25%, $primaryTextColor 100%);
+    background: linear-gradient($primaryColor 25%, $primaryTextColor 75%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

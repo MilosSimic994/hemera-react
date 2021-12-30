@@ -1,12 +1,14 @@
 .header__wrapper {
   @include container;
   @include flex(space-between, center);
+  margin-bottom: 200px;
 }
 .header {
   @include flex(center, center, column);
   background-color: $secondaryColor;
-  height: calc(100vh - 80px);
-  position: relative;
+  // height: calc(100vh - 80px);
+  // height: 100vh;
+  // position: relative;
 
   .introduction {
     h1 {
@@ -47,16 +49,9 @@
   background-color: red;
   }
 
-  .svg-header-white {
+  .svg-header {
     position: absolute;
-    bottom: -50px;
-    z-index: 5;
-  }
-  .svg-header-blue {
-    position: absolute;
-
     bottom: 0;
-    z-index: 4;
   }
 }
 .active-link {
