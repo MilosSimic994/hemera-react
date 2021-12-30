@@ -11,12 +11,12 @@ const CardSection = () => {
 				</div>
       	<div className="card__item">
 					<img src="/2568.jpg" alt="" />
-					<h2>O nama</h2>
+					<h2>Asortiman</h2>
 					<a href="#">Otvori</a>
 				</div>
       	<div className="card__item">
 					<img src="/6316.jpg" alt="" />
-					<h2>Asortiman</h2>
+					<h2>O nama</h2>
 					<a href="#">Otvori</a>
 				</div>
 			</div>
