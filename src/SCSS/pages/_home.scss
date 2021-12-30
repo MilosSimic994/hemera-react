@@ -1,17 +1,14 @@
 .header__wrapper {
   @include container;
-  @include flex(space-between, center, row);
+  @include flex(space-between, center);
 }
 .header {
   @include flex(center, center, column);
   background-color: $secondaryColor;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
+  height: calc(100vh - 80px);
   position: relative;
 
   .introduction {
-    margin-bottom: 200px;
     h1 {
       color: $primaryTextColor;
       text-transform: uppercase;
@@ -42,9 +39,6 @@
       }
     }
   } 
-  .a {
-    color: yellow;
-  }
 
   .slider {
   background-color: red;
