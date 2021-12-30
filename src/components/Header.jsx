@@ -26,6 +26,7 @@ const Header = () => {
    console.log(images);
   console.log(counter);
   return (
+    <>
     <header className="header">
       <div className="header__wrapper">
         <article className="introduction ">
@@ -58,6 +59,7 @@ const Header = () => {
         ></path>
       </svg> 
     </header>
+    </>
   );
 };
 

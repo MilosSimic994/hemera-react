@@ -1,0 +1,21 @@
+.cards {
+	background: #fff;
+}
+
+.cards__wrapper {
+	@include container;
+	@include flex(space-between, center);
+	padding: 120px 0;
+
+	.card__item {
+		box-shadow: 0px 1px 2px black;
+		border-radius: 20px;
+		height: 350px;
+		width: 300px;
+		img {
+			aspect-ratio: 290 / 210;
+			object-fit: cover;
+			border-radius: 20px;
+		}
+	}
+}

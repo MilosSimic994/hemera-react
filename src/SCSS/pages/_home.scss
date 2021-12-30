@@ -6,7 +6,7 @@
 .header {
   @include flex(center, center, column);
   background-color: $secondaryColor;
-  // height: calc(100vh - 80px);
+  height: calc(100vh - 80px);
   // height: 100vh;
   // position: relative;
 
@@ -51,7 +51,7 @@
 
   .svg-header {
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
   }
 }
 .active-link {
