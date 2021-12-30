@@ -1,6 +1,4 @@
-.main-navigation {
-  $screen: $media-l;
-
+.main__navigation {
   @include container;
   @include flex(space-between, center);
   
@@ -11,6 +9,7 @@
 
     li {
       padding: 20px 0;
+
       a {
         text-transform: uppercase;
         color: $primaryColor;
@@ -26,4 +25,9 @@
       margin-right: auto;
     }
   }
+}
+
+.main__navigation-logo {
+  font-family: $logoFontFamily;
+  font-size: 2rem;
 }
