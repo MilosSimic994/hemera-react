@@ -14,20 +14,27 @@
         text-transform: uppercase;
         color: $primaryColor;
         font-weight: 900;
-        font-size: 1.6rem;
-
+        font-size: 1.3rem;
+        
         &:hover {
+          animation: navLinksColorGradinet 0.4s ease forwards;
+        }
+
+        &.active {
           color: $primaryTextColor;
         }
       }
     }
     li:first-of-type {
       margin-right: auto;
+      a {
+        text-transform: lowercase;
+        font-family: $logoFontFamily;
+        font-size: 1.8rem;
+        color: $primaryTextColor;
+      }
     }
   }
 }
 
-.main__navigation-logo {
-  font-family: $logoFontFamily;
-  font-size: 2rem;
-}
+

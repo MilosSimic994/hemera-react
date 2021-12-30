@@ -5,19 +5,23 @@ const MainNavigation = () => {
   return (
     <nav className="main__navigation">
       <ul>
-        <li className="main__navigation-logo">Hemera</li>
+        <li>
+          <NavLink to="/">
+            hemera
+          </NavLink>
+          </li>
         <li>
           <NavLink to="/">
             Naslovna
           </NavLink>
         </li>
         <li>
-          <NavLink to="/das">
+          <NavLink to="/about">
             O nama
           </NavLink>
         </li>
         <li>
-          <NavLink to="/das">
+          <NavLink to="/products">
             Proizvodi
           </NavLink>
         </li>
