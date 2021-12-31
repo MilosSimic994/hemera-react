@@ -1,7 +1,14 @@
+// colors
 $primaryColor: #3064a7;
 $secondaryColor: #d6deec;
+$primaryTextColor:  #ED2939;
 
-$primaryTextColor: #a0171c;
-
+// breakpoints
+$media-xxl: 1920px;
+$media-xl: 1440px;
 $media-l: 1024px;
 $media-s: 768px;
+
+// fonts
+$baseFontFamily: 'Lato', sans-serif;
+$logoFontFamily: 'Architects Daughter', cursive;

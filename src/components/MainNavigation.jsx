@@ -3,21 +3,25 @@ import { NavLink } from "react-router-dom";
 
 const MainNavigation = () => {
   return (
-    <nav className="main-navigation">
+    <nav className="main__navigation">
       <ul>
-        <li>Hemera</li>
+        <li>
+          <NavLink to="/">
+            hemera
+          </NavLink>
+          </li>
         <li>
           <NavLink to="/">
             Naslovna
           </NavLink>
         </li>
         <li>
-          <NavLink to="/das">
+          <NavLink to="/about">
             O nama
           </NavLink>
         </li>
         <li>
-          <NavLink to="/das">
+          <NavLink to="/products">
             Proizvodi
           </NavLink>
         </li>

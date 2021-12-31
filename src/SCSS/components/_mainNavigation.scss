@@ -1,6 +1,4 @@
-.main-navigation {
-  $screen: $media-l;
-
+.main__navigation {
   @include container;
   @include flex(space-between, center);
   
@@ -14,16 +12,33 @@
       a {
         text-transform: uppercase;
         color: $primaryColor;
-        font-weight: 900;
-        font-size: 1.6rem;
-
+        font-weight: 600;
+        font-size: 1.3rem;
+        transition: all 0.5s ease-in-out;
+        
         &:hover {
+          animation: navLinksColorGradinet 0.15s forwards;
+        }
+
+        &.active {
           color: $primaryTextColor;
         }
       }
     }
     li:first-of-type {
       margin-right: auto;
+      a {
+        text-transform: lowercase;
+        font-family: $logoFontFamily;
+        font-size: 1.8rem;
+        color: $primaryTextColor;
+
+        &:hover{
+          animation-play-state: paused;
+        }
+      }
     }
   }
 }
+
+

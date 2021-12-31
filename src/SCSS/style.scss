@@ -2,8 +2,10 @@
 @import "utilites/mixins";
 
 @import "base/reset";
+@import "base/animations";
 @import "base/typography";
 
 @import "components/mainNavigation";
+@import "components/cards";
 
 @import "pages/home";

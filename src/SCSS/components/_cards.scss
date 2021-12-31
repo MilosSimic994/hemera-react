@@ -1,0 +1,27 @@
+.cards {
+	background: #fff;
+}
+
+.cards__wrapper {
+	@include container;
+	@include flex(space-evenly, center);
+	padding: 120px 0;
+
+	.card__item {
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+		border-radius: 20px;
+		overflow: hidden;
+		height: 250px;
+		width: 300px;
+		text-align: center;
+		img {
+			aspect-ratio: 290 / 210;
+			object-fit: cover;
+			border-radius: 20px;
+		}
+
+		a {
+			display: none;
+		}
+	}
+}

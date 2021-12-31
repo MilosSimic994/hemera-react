@@ -5,11 +5,19 @@
   flex-direction: $direction;
 }
 @mixin container {
-  width: $media-l;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
 
-  @media screen and (max-width: $media-l) {
-    width: 80%;
+  
+  @include desktop-xl {
+    width: 75%;
   }
+ 
+  @include laptop {
+    width: 90%;
+  };
+
+ 
 }
+

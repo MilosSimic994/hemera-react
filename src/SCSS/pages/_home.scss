@@ -5,22 +5,38 @@
 .header {
   @include flex(center, center, column);
   background-color: $secondaryColor;
-  height: 100vh;
+  height: calc(100vh - 80px);
   position: relative;
 
   .introduction {
     h1 {
+      position: relative;
       color: $primaryTextColor;
       text-transform: uppercase;
       letter-spacing: 4px;
       font-size: calc(5.5rem + 1.1vw);
+      font-weight: 300;
+      @include mobile {
+        font-size: 2.5rem;
+      }
+    }
+    h1::before {
+      content: 'vaše mesto kupovine';
+      font-family: $logoFontFamily;
+      font-size: 18px;
+      font-weight: bold;
+      position: absolute;
+      color: $primaryColor;
+      top: -5px;
+      letter-spacing: 1px;
     }
     p {
       color: $primaryColor;
-      font-size:  calc(0.7rem + 1.1vw);
+      font-size:  calc(0.5rem + 1.1vw);
+      font-weight: bold;
       text-transform: uppercase;
-      width: 52ch;
-      font-weight: 700;
+      width: 42ch;
+      font-weight: 900;
       line-height: 1.2;
       padding-bottom: 60px;
     }
@@ -41,19 +57,21 @@
   } 
 
   .slider {
-  background-color: red;
+    background: #fff;
+    width: 500px;
+    height: 500px;
+    @include flex(center, center);
+    border-radius: 36% 64% 75% 25% / 33% 55% 45% 67%;
+    overflow: hidden;
+    img {
+      border-radius: 50%;
+    }
+		
   }
 
-  .svg-header-white {
+  .svg-header {
     position: absolute;
-    bottom: -50px;
-    z-index: 5;
-  }
-  .svg-header-blue {
-    position: absolute;
-
-    bottom: 0;
-    z-index: 4;
+    bottom: -5px;
   }
 }
 .active-link {

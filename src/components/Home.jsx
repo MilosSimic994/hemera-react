@@ -1,9 +1,10 @@
-import Heaedr from "./Header";
+import { Cards, Header } from "./export";
 
 const Home = () => {
   return (
     <>
-      <Heaedr />
+      <Header />
+      <Cards/>
     </>
   );
 };
