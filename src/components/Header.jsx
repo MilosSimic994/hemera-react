@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import {MainNavigation} from "./export";
 import { Link } from "react-router-dom";
 import data from '../data.json'
 
