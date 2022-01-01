@@ -4,6 +4,25 @@
   align-items: $align;
   flex-direction: $direction;
 }
+
+@mixin desktop-xl {
+  @media screen and (max-width: $media-xl) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media screen and (max-width: $media-l) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: $media-s) {
+    @content;
+  }
+}
+
 @mixin container {
   width: 75%;
   margin-left: auto;
@@ -17,7 +36,5 @@
   @include laptop {
     width: 90%;
   };
-
- 
 }
 
