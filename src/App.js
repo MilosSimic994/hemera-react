@@ -4,7 +4,6 @@ import { Home, MainNavigation, Contact, About, Products } from './components/exp
 function App() {
   return (
     <div className="App">
-      {/* <MainNavigation /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />

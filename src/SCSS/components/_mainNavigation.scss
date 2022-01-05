@@ -1,42 +1,40 @@
 .main__navigation {
-  @include container;
-  position: sticky;
-  top: 0;
-  
-  ul {
-    @include flex(flex-end, center);
-    gap: 95px;
-    width: 100%;
+	@include container;
+	position: sticky;
+	top: 0;
 
-    li {
-      padding: 20px 0;
-      a {
-        cursor: pointer;
-        text-transform: uppercase;
-        color: $primaryColor;
-        font-size: 1.1rem;
-        transition: all 0.5s ease-in-out;
-        
-        &:hover {
-          animation: navLinksColorGradinet 0.15s forwards;
-        }
+	ul {
+		@include flex(flex-end, center);
+		gap: 95px;
+		width: 100%;
 
-        &.active {
-          color: $primaryTextColor;
-        }
-      }
-    }
-  }
+		li {
+			padding: 20px 0;
+			a {
+				cursor: pointer;
+				text-transform: uppercase;
+				color: $primaryColor;
+				font-size: 1.1rem;
+				transition: all 0.5s ease-in-out;
 
-  &[data-scroll="true"] {
-    width: 100vw;
-    background: #fff;
-    box-shadow: 2px 0px 5px #000;
+				&:hover {
+					animation: navLinksColorGradinet 0.15s forwards;
+				}
 
-    ul {
-      justify-content: center;
-    }
-  }
+				&.active {
+					color: $primaryTextColor;
+				}
+			}
+		}
+	}
+
+	&[data-scroll="true"] {
+		width: 100vw;
+		background: #fff;
+		box-shadow: 2px 0px 5px #000;
+
+		ul {
+			justify-content: center;
+		}
+	}
 }
-
-

@@ -1,13 +1,12 @@
 {
-   "images": [
-    {
-        "img": "https://cenoteka.rs/assets/images/articles/gel-za-tusiranje-nivea-creme-care-250ml-1008569-large.jpg",
-        "alt": "nivea"
-    },
-    {
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE6WHvWqfvXfy9ulEYb6bpH5ii_xaKuVChAg&usqp=CAU",
-        "alt": "nivea1" 
-    }
-   ] 
+    "images": [
+        {
+            "img": "https://cenoteka.rs/assets/images/articles/gel-za-tusiranje-nivea-creme-care-250ml-1008569-large.jpg",
+            "alt": "nivea"
+        },
+        {
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE6WHvWqfvXfy9ulEYb6bpH5ii_xaKuVChAg&usqp=CAU",
+            "alt": "nivea1"
+        }
+    ]
 }
-

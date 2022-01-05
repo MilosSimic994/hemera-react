@@ -1,12 +1,12 @@
 import { Cards, Header } from "./export";
 
 const Home = () => {
-  return (
-    <>
-      <Header />
-      <Cards />
-    </>
-  );
+	return (
+		<>
+			<Header />
+			<Cards />
+		</>
+	);
 };
 
 export default Home;

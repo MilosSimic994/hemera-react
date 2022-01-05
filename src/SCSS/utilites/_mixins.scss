@@ -1,40 +1,38 @@
 @mixin flex($justify, $align, $direction: row) {
-  display: flex;
-  justify-content: $justify;
-  align-items: $align;
-  flex-direction: $direction;
+	display: flex;
+	justify-content: $justify;
+	align-items: $align;
+	flex-direction: $direction;
 }
 
 @mixin desktop-xl {
-  @media screen and (max-width: $media-xl) {
-    @content;
-  }
+	@media screen and (max-width: $media-xl) {
+		@content;
+	}
 }
 
 @mixin laptop {
-  @media screen and (max-width: $media-l) {
-    @content;
-  }
+	@media screen and (max-width: $media-l) {
+		@content;
+	}
 }
 
 @mixin mobile {
-  @media screen and (max-width: $media-s) {
-    @content;
-  }
+	@media screen and (max-width: $media-s) {
+		@content;
+	}
 }
 
 @mixin container {
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
 
-  
-  @include desktop-xl {
-    width: 75%;
-  }
- 
-  @include laptop {
-    width: 90%;
-  };
+	@include desktop-xl {
+		width: 75%;
+	}
+
+	@include laptop {
+		width: 90%;
+	}
 }
-
