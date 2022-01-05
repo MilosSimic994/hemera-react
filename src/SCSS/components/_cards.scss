@@ -5,10 +5,9 @@
 .cards__wrapper {
 	@include container;
 	@include flex(space-evenly, center);
-	// padding: 120px 0;
+	padding: 80px 0;
 
 	.card__item {
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
 		border-radius: 20px;
 		overflow: hidden;
 		height: 290px;
@@ -17,6 +16,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		border: 1px solid rgb(219, 219, 219);
 		img {
 			aspect-ratio: 5 / 3;
 			object-fit: contain;
@@ -26,8 +26,6 @@
 		a {
 			display: block;
 			transform: translateY(100px);
-			height: 100%;
-			padding-top: 33px;
 			transition: transform 0.3s ease-in;
 
 			&:visited {
@@ -37,7 +35,7 @@
 
 		&:hover {
 			transform: scale(1.2);
-
+			box-shadow: 5px 5px 5px #000;
 			a {
 			transform: translateY(0px);
 			}
