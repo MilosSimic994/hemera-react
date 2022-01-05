@@ -18,7 +18,7 @@ const MainNavigation = () => {
 	}, []);
 
 	return (
-		<nav className="main__navigation" data-scroll={scrollNav}>
+		<nav className={`main__navigation${scrollNav ? " sticky" : ""}`}>
 			<ul>
 				<li>
 					<NavLink to="/">Naslovna</NavLink>
