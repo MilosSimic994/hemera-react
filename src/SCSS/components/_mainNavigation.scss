@@ -1,19 +1,20 @@
 .main__navigation {
   @include container;
-  @include flex(space-between, center);
+  position: sticky;
+  top: 0;
   
   ul {
-    @include flex(space-between, center);
-    gap: 20px;
+    @include flex(flex-end, center);
+    gap: 95px;
     width: 100%;
 
     li {
       padding: 20px 0;
       a {
+        cursor: pointer;
         text-transform: uppercase;
         color: $primaryColor;
-        font-weight: 600;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         transition: all 0.5s ease-in-out;
         
         &:hover {
@@ -25,18 +26,15 @@
         }
       }
     }
-    li:first-of-type {
-      margin-right: auto;
-      a {
-        text-transform: lowercase;
-        font-family: $logoFontFamily;
-        font-size: 1.8rem;
-        color: $primaryTextColor;
+  }
 
-        &:hover{
-          animation-play-state: paused;
-        }
-      }
+  &[data-scroll="true"] {
+    width: 100vw;
+    background: #fff;
+    box-shadow: 2px 0px 5px #000;
+
+    ul {
+      justify-content: center;
     }
   }
 }
