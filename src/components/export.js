@@ -5,3 +5,4 @@ export { default as MainNavigation } from './MainNavigation';
 export { default as About } from './About';
 export { default as Products } from './Products';
 export { default as Cards } from './CardSection';
+export { default as Promo } from './Promo';
