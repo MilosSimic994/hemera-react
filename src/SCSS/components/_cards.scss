@@ -5,23 +5,22 @@
 .cards__wrapper {
 	@include container;
 	@include flex(space-evenly, center);
+	gap: 20px;
 	padding: 80px 0;
 
 	.card__item {
+		@include flex(center, center);
+		flex-direction: column;
 		border-radius: 20px;
 		overflow: hidden;
 		height: 290px;
 		width: 300px;
 		text-align: center;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
 		box-shadow: inset 2px 2px 5px rgb(139, 139, 139);
 
 		img {
 			aspect-ratio: 5 / 3;
 			object-fit: contain;
-			border-radius: 20px;
 		}
 
 		a {
@@ -35,10 +34,10 @@
 		}
 
 		&:hover {
-			transform: scale(1.2);
+			transform: scale(1.05);
 			box-shadow: 2px 2px 5px #000;
 			a {
-				transform: translateY(0px);
+				transform: translateY(10px);
 			}
 		}
 	}
