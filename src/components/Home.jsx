@@ -1,10 +1,11 @@
-import { Cards, Header, Promo } from "./export";
+import { Cards, Header, Promo, About } from "./export";
 
 const Home = () => {
 	return (
 		<>
 			<Header />
-			<Cards />
+			{/* <Cards /> */}
+			<About />
 			<Promo />
 		</>
 	);
