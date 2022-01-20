@@ -27,7 +27,7 @@ const Header = () => {
 	console.log(counter);
 	return (
 		<>
-			<MainNavigation />
+			
 			<header
 				className="header"
 				style={{ backgroundImage: "url(/assets/images/mainBgXXL.jpg)" }}
