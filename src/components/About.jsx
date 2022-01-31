@@ -1,10 +1,21 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 
 const About = () => {
 	return (
-		<section className="about">
+		<section className="about" style={{ backgroundImage: "url(/assets/images/mainBgXXL.jpg)" }}>
 			<div className="left">
-				<h2>O nama</h2>
+			<article className="introduction">
+						<p>vaše mesto kupovine</p>
+						<h1>Hemera</h1>
+						<p>
+							MEsto gde mozete naci sve popularne brendove koji nude sirok
+							asortiman kozmetickih preparata
+						</p>
+						<button>
+							<Link to="/contact">Kontaktiraj nas</Link>
+						</button>
+					</article>
 			</div>
 			<div className="right">
 				<p>

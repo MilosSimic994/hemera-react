@@ -10,48 +10,7 @@
 	background-repeat: no-repeat;
 	margin-top: -80px;
 
-	.introduction {
-		h1 {
-			color: $primaryTextColor;
-			font-family: $logoFontFamily;
-			text-transform: uppercase;
-			letter-spacing: 4px;
-			font-size: calc(5.5rem + 1.1vw);
-			font-weight: 300;
-			@include mobile {
-				font-size: 2.5rem;
-			}
-		}
-		p:first-of-type {
-			font-size: 24px;
-			text-transform: lowercase;
-			letter-spacing: 12px;
-			padding-bottom: 0px;
-			margin-bottom: -20px;
-		}
-		p:last-of-type {
-			margin-top: -20px;
-			font-size: 16px;
-			text-transform: uppercase;
-			width: 50ch;
-			line-height: 1;
-		}
-		button {
-			display: none;
-			background-color: $primaryTextColor;
-			padding: 14px 22px;
-			border-radius: 40px;
-			transition: padding 0.3s;
-			border: none;
-			a {
-				color: #fff;
-				font-size: calc(1rem + 0.4vw);
-			}
-			&:hover {
-				padding-right: 52px;
-			}
-		}
-	}
+	
 
 	.slider {
 		background: #fff;

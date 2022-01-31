@@ -30,7 +30,7 @@ const Header = () => {
 			
 			<header
 				className="header"
-				style={{ backgroundImage: "url(/assets/images/mainBgXXL.jpg)" }}
+				
 			>
 				<div className="header__wrapper">
 					<article className="slider">
