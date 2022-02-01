@@ -1,7 +1,6 @@
 .about {
 	
-	@include flex(center, flex-start);
-	margin: 80px auto;
+	@include flex(center, center);
 	height: 100vh;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -13,10 +12,7 @@
 		
 
 		.introduction {
-			position: fixed;
-			left: 0;
-			top: 50%;
-			z-index: 0;
+		
 			h1 {
 				color: $primaryTextColor;
 				font-family: $logoFontFamily;
@@ -67,8 +63,8 @@
 		line-height: 36px;
 		margin-left: auto;
 
-		p:first-of-type {
-			margin-bottom: 20px;
+		p {
+			padding: 15px 0;
 		}
 	}
 }

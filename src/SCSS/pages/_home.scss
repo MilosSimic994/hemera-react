@@ -1,26 +1,21 @@
 .header__wrapper {
-	@include container;
 	@include flex(space-between, center);
-	margin-top: -250px
+	margin-top: 50px;
+min-height: 80vh;
 }
 .header {
 	@include flex(center, center, column);
-	height: 1250px;
-	width: 100%;
-	background-repeat: no-repeat;
-	margin-top: -80px;
 
-	
+	width: 100%;
 
 	.slider {
 		background: #fff;
-		width: 500px;
-		height: 500px;
+		width: 100%;
 		@include flex(center, center);
-		border-radius: 36% 64% 75% 25% / 33% 55% 45% 67%;
 		overflow: hidden;
 		img {
-			border-radius: 50%;
+			width: 100%;
+			height: auto
 		}
 	}
 

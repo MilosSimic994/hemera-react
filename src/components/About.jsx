@@ -33,6 +33,14 @@ const About = () => {
 					proizvoda. Na Vama je da nas kontaktirate i odaberete proizvode koje
 					želite, a mi ćemo ih brzo i bezbedno dopremiti do vaših rafova.
 				</p>
+				<p>
+					U koliko posedujete maloprodajni objekat i u potrazi ste za širokim
+					asortimanom kozmetike na pravom ste mestu. Velerodaja Hemera Vam
+					omogućava da na jednostavan, brz i pouzdan način dođete do željenih
+					proizvoda. Na Vama je da nas kontaktirate i odaberete proizvode koje
+					želite, a mi ćemo ih brzo i bezbedno dopremiti do vaših rafova.
+				</p>
+				
 			</div>
 		</section>
 	);

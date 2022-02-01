@@ -28,25 +28,12 @@ const Header = () => {
 	return (
 		<>
 			
-			<header
-				className="header"
-				
-			>
+			<header className="header">
 				<div className="header__wrapper">
 					<article className="slider">
 						<img src={img.img} alt={img.alt} />
 					</article>
-					<article className="introduction">
-						<p>vaše mesto kupovine</p>
-						<h1>Hemera</h1>
-						<p>
-							MEsto gde mozete naci sve popularne brendove koji nude sirok
-							asortiman kozmetickih preparata
-						</p>
-						<button>
-							<Link to="/contact">Kontaktiraj nas</Link>
-						</button>
-					</article>
+					
 				</div>
 			</header>
 		</>
